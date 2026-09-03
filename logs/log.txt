@@ -1,0 +1,10 @@
+Fecha: 2026-09-03 | Hora: 14:58:17 | Ruta: Inicio de Servidor
+Fecha: 2026-09-03 | Hora: 15:01:15 | Ruta: Inicio de Servidor
+Fecha: 2026-09-03 | Hora: 15:01:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-03 | Hora: 15:01:52 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
+Fecha: 2026-09-03 | Hora: 15:02:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-03 | Hora: 15:02:20 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
+Fecha: 2026-09-03 | Hora: 15:02:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-03 | Hora: 15:02:59 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
+Fecha: 2026-09-03 | Hora: 15:03:10 | Ruta: /
+Fecha: 2026-09-03 | Hora: 15:04:29 | Ruta: /

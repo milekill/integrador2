@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Hola desde HTML</h1>
+        <p>Pagina inicial de Servidor con HTML en: <a href="http://localhost:3000">http://localhost:3000</a></p>
+        <p>Revisar el Status del Servidor con JSON en: <a href="http://localhost:3000/status">http://localhost:3000/status</a></p>
+        <p>Revisar a traves de Routes: <a href="http://localhost:3000/rutas">http://localhost:3000/rutas</a></p>
+        <p>Datos de tu clases con tu nombre con Views EJS en: <a id="linkDatos" href="#">http://localhost:3000/datos/</a><input type="text" id="inputNombre" placeholder="Agrega tu nombre aqui"></p>
+        <p>Testear conexion con servidor PostgreSQL con pg en: <a href="http://localhost:3000/dbpg">http://localhost:3000/dbpg</a></p>
+        <p>Mostrar usuarios en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios">http://localhost:3000/usuarios</a></p>
+        <p>Buscar usuario por nombre en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios?nombre=Juan">http://localhost:3000/usuarios?nombre=Juan</a></p>
+
+        
+<script>
+    const input = document.getElementById('inputNombre');
+    const link = document.getElementById('linkDatos');
+
+    link.addEventListener('click', function(e) {
+        const textoIngresado = input.value.trim();
+        if (!textoIngresado) {
+            console.log("Nombre no ingresado");
+            return; 
+        }
+        link.href = "http://localhost:3000/datos/" + encodeURIComponent(textoIngresado);
+        });
+</script>
+</body>
+</html>

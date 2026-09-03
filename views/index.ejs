@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title><%= titulo %></title>
+</head>
+<body>
+    <h1>Hola, <%= usuario %></h1>
+
+    <% if (conectado) { %>
+        <p>Esta pagina fue cargada con Views de EJS.</p>
+        <p>Fecha y hora de ingreso: <%= fecha %></p>
+    <% } else { %>
+        <p>Por favor, inicia sesión.</p>
+    <% } %>
+
+    
+
+    <h2>Tus cursos cargados son:</h2>
+    <ul>
+        <% cursos.forEach(curso => { %>
+            <li><%= curso %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
