@@ -2,6 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const RUTA_ARCHIVO = './logs/log.txt';
+const RUTA_ARCHIVO_ERROR = './logs/errors.txt';
 
 //Registra las visitas en el txt
 async function registrarVisita(rutaAccedida) {
@@ -20,7 +21,24 @@ async function registrarVisita(rutaAccedida) {
   }
 }
 
+
+// Función para registrar errores en un archivo log.txt
+async function registrarLogFallido(errorMensaje, datosTransaccion) {
+  //const rutaLog = path.join(__dirname, 'error.txt');
+  const timestamp = new Date().toISOString();
+  const lineaLog = `[${timestamp}] ERROR: ${errorMensaje} | Datos intentados: ${JSON.stringify(datosTransaccion)}\n`;
+  
+  try {
+    await fs.appendFile(RUTA_ARCHIVO_ERROR, lineaLog, 'utf8');
+    console.log('Error registrado con éxito: ' + errorMensaje);
+  } catch (error) {
+    console.error('Error al escribir en el archivo de errores:', error);
+  }
+}
+
+
 //modulos
 module.exports = {
     registrarVisita,
+    registrarLogFallido,
 };

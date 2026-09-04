@@ -4,9 +4,9 @@
 
     Desarrollada con Node, 
 
-    **Proyecto ABP Modulo 7**
+    Proyecto ABP Modulo 7
 
-    [https://github.com/milekill/integrador.git](https://github.com/milekill/integrador.git)
+    https://github.com/milekill/integrador2.git
 
     03-09-2026 Valparaíso, Chile.
 
@@ -15,6 +15,7 @@
 Versión:1.0.2.1
 
 *   Requisitos del sistema
+    -   VSCode
     -   Node.js: Versión 18.x, 20.x o superior recomendada.
     -   npm: Viene incluido con la instalación de Node.js.
         
@@ -31,228 +32,176 @@ Versión:1.0.2.1
 *   Ejemplos de uso (Servidor básico con Express)
     -   Ejecuta la aplicación en tu terminal: ```npm run dev```
     -   Abre tu navegador web y ingresa a los siguientes enlaces:
-        -   http://localhost:3000. para ver la pagina de inicio con HTML.
-        -   http://localhost:3000/status para Revisar el Status del Servidor con JSON en 
-        -   http://localhost:3000/datos/AgregaTuNombreAqui para ver Datos de tu clases con tu nombre con Views EJS en.
-        -   http://localhost:3000/rutas para Vistar la pagina a traves del Routes.
+        -   http://localhost:3000 para ver la pagina de inicio con HTML.
+        -   http://localhost:3000/dbpg Base de datos con dbpg PostgreSQL.
+        -   http://localhost:3000/usuarios Mostrar Usuarios con dbpg PostgreSQL.
+        -   http://localhost:3000/Usuarios?nombre=Juan Buscar Usuarios por nombre con dbpg PostgreSQL.
 ---  
 ---
-1. Conociendo Node y Express (Lección 1)
+1. Conexión a una base de datos (Lección 1)
 
-* Investigar el ecosistema `Node.js` y para qué se utiliza.
-    - Node.js es un entorno de ejecución de código abierto para JavaScript, construido con el motor V8 de Google Chrome. Permite ejecutar código JavaScript fuera del navegador web directamente en servidores o computadoras para desarrollar aplicaciones de backend, servicios web, interfaces de comandos y herramientas de desarrollo.
+    - Crear la base de datos y al menos 1 tabla principal (usuarios o equivalente).
+        ![tabla de datos creada](./doc/img/01.png) <br>
 
-    - Node.js se utiliza para:
+    - Utilizar mysql2, pg o el paquete ORM elegido para establecer la conexión.
+        ![pg](./doc/img/02.png) <br>
 
-        * Creación de servidores y APIs: Permite programar la lógica del servidor de una página o aplicación web utilizando JavaScript.
-        * Aplicaciones en tiempo real: Es ideal para chats, herramientas de colaboración en vivo y plataformas de transmisión de datos (streaming) por su rapidez de respuesta.
-        * Microservicios y sistemas rápidos: Maneja múltiples peticiones a la vez de forma eficiente sin bloquear el sistema.
-        * Herramientas de desarrollo frontend: Sirve como base para ejecutar herramientas modernas de compilación y empaquetado de código (como Vite, Webpack o entornos de frameworks como React, Angular y Vue).
-
-    - Características Principales:
-
-        * Asíncrono y sin bloqueo: Procesa múltiples tareas de manera simultánea sin detener el flujo principal del programa.
-        * Uso del mismo lenguaje: Permite usar JavaScript tanto en el navegador (frontend) como en el servidor (backend).
-        * npm (Node Package Manager): Incluye un gran gestor de paquetes y librerías creadas por la comunidad para acelerar el desarrollo.
----
-* Identificar qué aporta `Express` sobre `Node` puro.
-    - Express aporta una capa de abstracción sobre Node.js puro que simplifica y acelera el desarrollo web. Mientras Node.js proporciona el entorno de ejecución básico con módulos de bajo nivel, Express añade un sistema de enrutamiento robusto, gestión avanzada de peticiones y respuestas HTTP, y un sistema modular de middleware.
-
-    - Enrutamiento Avanzado
-        - Node puro: Requiere evaluar manualmente la URL y el método con condicionales complejos (if/switch) sobre el objeto de la petición.
-        - Express: Ofrece un sistema de rutas limpio y directo basado en métodos HTTP (app.get, app.post, etc.) y parámetros en la URL.
-    - Gestión de Middleware
-        - Node puro: Obliga a escribir código repetitivo para analizar cuerpos de peticiones (JSON, datos de formularios) o gestionar cookies y sesiones.
-        -   Express: Utiliza funciones middleware que se ejecutan en cadena para procesar peticiones, validar datos, manejar errores o autenticar usuarios de forma ordenada.
-    - Manejo de Peticiones y Respuestas
-        - Node puro: Los objetos req y res son streams básicos de Node donde hay que escribir cabeceras y fragmentos de datos manualmente (res.writeHead, res.write).
-        - Express: Extiende estos objetos con métodos útiles y expresivos como res.json() para enviar datos estructurados o res.send() para texto y HTML.
----
-* Realizar un esquema visual del flujo básico servidor–cliente.
-```
-+---------------------+     Petición HTTP      +--------------------+
-|                     |  ------------------->  |                    |
-| Cliente (Navegador) |                        | Servidor (Node.js) |
-|                     |  <-------------------  |                    |
-+---------------------+     Respuesta HTTP     +--------------------+
-```
----
-* Crear una infografía personal del stack técnico del proyecto.
-    - Título y Perfil
-        - Nombre del proyecto: Integrador 
-        - Desarrollado por: Andreas Müller Silva
-        - Rol principal: Desarrollador Backend / Full Stack.
-    - Backend
-        - Node.js: Entorno de ejecución de JavaScript.
-        - Express.js: Framework principal para crear las rutas y la API.
-        - JWT: Seguridad, autenticación y encriptación de datos.
-    - Bases de Datos
-        - PostgreSQL: Almacenamiento principal de información.
-    - DevOps y Despliegue
-        - Git / GitHub: Control de versiones y trabajo en equipo.
-    - Herramientas y Control
-        - dotenv:
-        - nodemon:
----
----
-2. Instalación y configuración de Node (Lección 2)
-
-    * Instalar `Node.js` correctamente (mínimo versión 18).<br>
-    ![Node Version instalada](./doc/img/01.png) <br>
-    ![Npm Version instalada](./doc/img/02.png)
-    * Inicializar el proyecto con `npm init` y completar todos los campos relevantes del `package.json`.<br>
-    ![Datos al inicializar el npm init](./doc/img/03.png) <br>
-    ![Datos del package.json](./doc/img/04.png)
-
-    * Crear el archivo principal `index.js` o `app.js`, con una función que imprima `"Servidor iniciado"`.<br>
-    ![indes.js y app.js en carpeta](./doc/img/05.png)<br>
-    ![imprimir "servidor iniciado"](./doc/img/06.png)
-
-    * Se debe justificar brevemente en el `README` por qué se eligió `index.js` o `app.js` como nombre base del archivo principal.<br>
-        - Razones para usar index.js: 
-            - es el archivo por defecto: Node.js y los sistemas de paquetes buscan index.js de manera automática al abrir una carpeta.
-            - Rutas limpias: Permite importar carpetas enteras sin escribir el nombre del archivo en la ruta.
-            - Estándar: Sigue las normas comunes de la comunidad de JavaScript.
+    - Almacenar credenciales en variables de entorno.
+        ![variables](./doc/img/03.png) <br>
 
 
-    * Configurar uso de variables de entorno (`dotenv`) para el puerto del servidor.<br>
-    ![npm install dotenv](./doc/img/07.png)<br>
-    ![creacion archivo .env con PORT](./doc/img/08.png)
+    - Archivo .env con las claves ocultas.
+        <br> ![.env](./doc/img/04.png) <br>
 
----
----
-3. Gestión de paquetes en Node (Lección 3)
-    * Instalar y declarar las siguientes dependencias:
-        - `express` (requerido)<br>
-        ![npm install express](./doc/img/09.png)<br>
-        - `dotenv` (recomendado)<br>
-        ![npm install dotenv](./doc/img/07.png)<br>
-        - `nodemon` como devDependency<br>
-        ![npm install nodemon --save-dev](./doc/img/10.png)<br>
+    - Log en consola al conectar con éxito.
+        <br> ![log en consola](./doc/img/05.png) <br>
 
-    * Crear scripts personalizados en `package.json`:
-        - `npm start`
-        - `npm run dev`<br>
-        ![script "dev" en package.json](./doc/img/11.png)<br>
-        ![npm run den funcionando](./doc/img/12.png)<br>
+    - ¿Por qué elegiste ese cliente de conexión?
+
+        - Ligero y Nativo: node-postgres (pg) es el driver de bajo nivel sobre el cual se construyen la mayoría de los ORMs de Node (como Sequelize o TypeORM). Al usarlo directamente, evitamos sobrecarga (overhead) de código y entendemos el comportamiento real de las consultas SQL.
+
+        - Uso de Pool de Conexiones: El objeto Pool reutiliza conexiones existentes en lugar de abrir y cerrar una nueva conexión en cada solicitud HTTP. Esto mejora drásticamente el rendimiento del servidor bajo carga constante.
+
+    - ¿Cómo se protegen los datos sensibles?
         
+        - Inyección de Dependencias vía Proceso: Las credenciales (usuario, contraseña, host) no están escritas directamente en el código fuente (hardcodeado). Se leen directamente de la memoria del sistema operativo en tiempo de ejecución usando process.env.
 
-    * Agregar comentarios en el código para describir qué hace cada línea relevante.
-        ```
-        //Ingresar en terminal para instalacion:
-        $ npm install express
-        $ npm install dotenv
-        $ npm instal nodemon --save-dev
-
-        //Agregar script a package.json
-        "scripts": {
-            "start": "node index.js",
-            "dev": "nodemon index.js"
-        },
-        ```
+        - Aislamiento del Entorno: El archivo .env actúa como un entorno local cerrado. Al excluirlo del repositorio mediante .gitignore, evitamos filtraciones accidentales de credenciales críticas en servidores públicos como GitHub, permitiendo además cambiar de entorno (desarrollo, pruebas, producción) simplemente modificando los valores del archivo sin tocar el código.
 ---
 ---
-4. Sirviendo contenido web (Lección 4)
-    * Crear al menos 2 rutas públicas (`/ y /status`), cada una con respuestas en `HTML` o `JSON`.
-        ```
-        Pagina inicial de Servidor con HTML en: http://localhost:3000
-        Revisar el Status del Servidor con JSON en: http://localhost:3000/status
-        Datos de tu clases con tu nombre con Views EJS en: http://localhost:3000/datos/Agrega tu nombre aqui
-        ```
 
-    * Configurar la carpeta `/public` para servir al menos 1 archivo estático.<br>
-        ![carpeta public con html](./doc/img/13.png)<br>
-        
+2. Obtención de información desde una base de datos (Lección 2)
+
+    - Crear una ruta GET /usuarios que devuelva los datos de la tabla.
+        ingresar a para ver todos los usuarios: `http://localhost:3000/usuarios`
+        <br>![ruta get](./doc/img/06.png)<br>
+
+    - Procesar los resultados antes de enviarlos (evitar contraseñas o datos sensibles).
+        Se eleminar la muestra de las password de casa usuario:
+        <br>![Procesado de datos sensibles](./doc/img/07.png)<br>
+
+    - Validar errores de conexión o consulta.
+    <br>![errores de conexión](./doc/img/08.png)<br>
+
+    - Al menos 3 registros simulados.
+    <br>![usuarios simulados](./doc/img/09.png)<br>
+
+
+    - Respuesta en JSON clara y ordenada.
+    <br>![respuesta JSON](./doc/img/10.png)<br>
+    <br>![respuesta en localhost](./doc/img/11.png)<br>
+
+    - Implementar paginación o filtrado por query params(?nombre=Juan).<br>
+        ingresar nombre para buscar usuario: `http://localhost:3000/usuarios?nombre=juan`
+        <br>![respuesta en localhost](./doc/img/12.png)<br>
+
+---
+---
+
+3. Modificación de datos en una base de datos (Lección 3)
+
+    - Ruta PUT /usuarios/:id para modificar un registro.
+    `http://localhost:3000/usuarios/1`
+    <br>![Put](./doc/img/13.png)<br>
+
+    - Ruta DELETE /usuarios/:id con validación previa de existencia.
+    `http://localhost:3000/usuarios/1`
+    <br>![Delete](./doc/img/14.png)<br>
+
+    - Validar errores y devolver mensajes útiles.
+    <br>![Validar errores](./doc/img/15.png)<br>
+    <br>![Validar errores](./doc/img/16.png)<br>
+
+
+    - Confirmación de éxito en ambas operaciones.
+    <br>![Exito1](./doc/img/17.png)<br>
+    <br>![exito2](./doc/img/18.png)<br>
+
+
+    - Validación de ID existente.
+    <br>![validar id](./doc/img/19.png)<br>
     
-    * Agregar `middleware express.static()` correctamente.
-        ```
-        app.use(express.static(path.join(__dirname, 'public')));
-        ```
----
----
-5. Persistencia en archivos planos (Lección 5)
-    * Crear un archivo `log.txt` y una función que registre en él cada visita a una ruta específica.<br>
-        ![carpeta con log.txt](./doc/img/14.png)<br>
+    - ¿Por qué decidiste actualizar sólo ciertos campos?
 
-    * Usar `fs.appendFile()` para agregar líneas de texto.
-        ```
-        fs.appendFile(RUTA_ARCHIVO, logLinea, 'utf8');
-        ```
+        -  Evitar sobreescritura accidental: Si el cliente solo quiere cambiar el email, no debe verse obligado a enviar el nombre o la edad. Si enviáramos campos fijos, correríamos el riesgo de poner valores en null o sobreescribir datos válidos con datos vacíos.
 
-    * Validar que el texto registrado tenga la siguiente estructura mínima: fecha, hora, ruta accedida.
-        ```
-        const logLinea = `Fecha: ${fecha} | Hora: ${hora} | Ruta: ${rutaAccedida}\n`;
-        ```
+        -   Eficiencia y rendimiento: Generar la consulta SQL dinámicamente (UPDATE usuarios SET nombre = $1 ...) asegura que la base de datos solo procese e indexe los cambios estrictamente necesarios, reduciendo el tráfico de red y la carga en el motor PostgreSQL.
 
-    * El archivo debe registrar al menos 3 accesos simulados.
-        ```
-        Fecha: 2026-08-14 | Hora: 17:01:41 | Ruta: Inicio de Servidor
-        Fecha: 2026-08-14 | Hora: 17:01:46 | Ruta: /
-        Fecha: 2026-08-14 | Hora: 17:01:48 | Ruta: /status
-        Fecha: 2026-08-14 | Hora: 18:17:09 | Ruta: /datos/daniel
-        Fecha: 2026-08-14 | Hora: 18:32:24 | Ruta: /rutas
-        ```
+        - Flexibilidad (Comportamiento PATCH en un PUT): Aunque teóricamente PUT reemplaza el recurso completo, en entornos prácticos reales es mucho más seguro y óptimo permitir actualizaciones parciales para no forzar al frontend a realizar consultas GET previas innecesarias solo para rellenar el formulario.
 
-    * Justificar si se elige otro tipo de evento para registrar (por ejemplo, errores o inicio del servidor).
 
-        Se ha agregado "inicio de servidor" a los logs, cuando se inicia la aplicacion para tener la trazabilidad de cada vez que se pone en marcha.
+    - ¿Qué validaciones aplicaste para evitar errores?
+
+        - Validación del tipo de dato del parámetro (:id): Compruebo que el ID sea un número entero positivo antes de tocar la base de datos. Esto evita errores de sintaxis en PostgreSQL cuando se inyectan cadenas de texto (como /usuarios/abc).
+        - Verificación de existencia previa (404 Not Found):
+            - En el PUT, realizo un SELECT rápido para garantizar que el recurso existe antes de transformarlo.
+            - En el DELETE, utilizo la cláusula RETURNING * combinada con rowCount === 0. Esto es atómico, rápido y evita borrar registros inexistentes sin lanzar un error de servidor.
+
 
 ---
+
+4. Transaccionalidad (Lección 4)
+
+    - Implementar una operación simulada que involucre al menos 2 acciones consecutivas (por ejemplo, registrar un usuario y crear su historial).
+    <br>![acciones](./doc/img/20.png)<br>
+    <br>![acciones2](./doc/img/21.png)<br>
+    
+
+    - Asegurar rollback si alguna falla.
+    <br>![Rollback](./doc/img/22.png)<br>
+
+    - Log de éxito o error claro.
+    <br>![log error](./doc/img/23.png)<br>
+
+    - Evidencia de rollback si se fuerza un error.
+    <br>![Rollback log](./doc/img/24.png)<br>
+
+    - Log en archivo de las transacciones fallidas (similar al log.txt previo).
+    <br>![archivo](./doc/img/25.png)<br>
+    <br>![archivo](./doc/img/26.png)<br>
+
 ---
-6. Ejecución de un aplicativo Node (Lección 6)
-    * Ejecutar la aplicación con `npm run dev`.
-        <br>
-        ![npm run dev](./doc/img/15.png)<br>
 
-    * Validar el acceso a las rutas creadas.
-        ```
-        http://localhost:3000/
-        ```
-        ![http://localhost:3000/](./doc/img/16.png)<br>
-        ```
-        http://localhost:3000/status
-        ```
+5. Acceso a datos con ORM (Lección 5)
 
-        ![http://localhost:3000/status](./doc/img/17.png)<br>
-        ```
-        http://localhost:3000/datos/Daniel
-        ```
+    - Instalar e inicializar ORM.
+    para instalar ORM:
+    `npm install sequelize pg pg-hstore`
+    <br>![inicializar ORM](./doc/img/27.png)<br>
 
-        ![http://localhost:3000/datos/Daniel](./doc/img/18.png)<br>
+    - Definir al menos 1 modelo (User).
+    <br>![user](./doc/img/28.png)<br>
 
-    * Crear y completar el archivo `README.md` con:
-        *   Requisitos del sistema
-            -   Node.js: Versión 18.x, 20.x o superior recomendada.
-            -   npm: Viene incluido con la instalación de Node.js.
-        
-        *   Sistema operativo: 
-            -   Windows, macOS o Linux.
-            -   Espacio en disco: Menos de 50 MB para dependencias básicas.
-        
-        *   Instrucciones de instalación
-            -   Descarga e instala Node.js desde el sitio oficial de Node.js.
-            -   Abre tu terminal o consola y verifica la instalación con ```node -v``` y ```npm -v.```
-            -   Crea una carpeta nueva para tu proyecto y entra en ella:
-                ```mkdir mi-app-express``` ```cd mi-app-express```
-            -   Instala las dependencias del proyecto en tu carpeta.
+    - Crear una ruta que devuelva los usuarios usando métodos del ORM.
+    
 
-        *   Ejemplos de uso (Servidor básico con Express)
-            -   Ejecuta la aplicación en tu terminal:
-            ```npm run dev```
-            -   Abre tu navegador web y ingresa a los siguientes enlaces:
-                -   http://localhost:3000. para ver la pagina de inicio con HTML.
-                -   http://localhost:3000/status para Revisar el Status del Servidor con JSON en 
-                -   http://localhost:3000/datos/AgregaTuNombreAqui para ver Datos de tu clases con tu nombre con Views EJS en.
-                -   http://localhost:3000/rutas para Vistar la pagina a traves del router.
-
-    * Subir el repositorio a GitHub con nombre claro y estructura organizada.<br>
-        [https://github.com/milekill/integrador.git](https://github.com/milekill/integrador.git)
-
-    * El repositorio debe incluir al menos 5 carpetas bien nombradas.
-        <br>![carpetas](./doc/img/19.png)<br>
+    - Comparación de resultados entre SQL manual y ORM.
+        CaracterísticaCliente SQL Tradicional (ej. pg, mysql2)ORM (Sequelize)
+        Código de consultaSELECT id, name, email, "createdAt" FROM "Users";User.findAll();
+        Formateo de datosDevuelve filas de texto plano que debes mapear manualmente si requieres lógica de negocio.Devuelve instancias de clase con métodos útiles (ej. user.save()).
+        Seguridad (Inyección SQL)Requiere sanitizar manualmente usando consultas parametrizadas ($1, $2).Sanitiza y protege contra inyección SQL de forma nativa y automática.
+        Mutación de datos (Crear)INSERT INTO "Users" (name, email) VALUES ($1, $2) RETURNING *;User.create({ name, email });
 
 
-    * Crear un `router.js` externo y conectar las rutas con `app.use()`.
-        <br>![router.js](./doc/img/20.png)<br>
+    - ¿Qué ventaja encontraste usando ORM frente al cliente SQL tradicional?
+        - Abstracción de la Base de Datos: Si hoy usas PostgreSQL y mañana decides cambiar a MySQL o SQLite, no necesitas reescribir tus consultas SQL. Solo cambias el dialect en la configuración de Sequelize.
+        - Código más Limpio y Mantenible: Reemplazas cadenas de texto SQL (que el editor a veces no resalta ni autocompleta) por métodos de JavaScript puros (findAll, findOne, create, update). Esto reduce errores sintácticos.
+        - Validación de Datos Integrada: El ORM te permite validar correos, longitudes de strings o campos nulos directamente en la capa de la aplicación (en la definición del modelo) antes de siquiera tocar la base de datos.
+        - Manejo Automático de Relaciones: Configurar un JOIN complejo en SQL tradicional requiere muchas líneas. En Sequelize se resuelve asociando los modelos (User.hasMany(Post)) y usando la opción { include: Post } en la consulta.
+
+---
+
+6. Manejo de relaciones en un ORM (Lección 6)
+
+    * Objetivo específico: Crear relaciones entre modelos y consultarlas desde rutas.
+
+    * Tareas:
+        - Crear al menos 1 relación (por ejemplo, Usuario tiene muchos Pedidos).
+        - Crear una ruta que devuelva el usuario y sus pedidos en una sola consulta.
+    * Requerimientos mínimos:
+        - Uso de include o equivalente para traer relaciones.
+        - Al menos 2 modelos relacionados.
+    * Tarea PLUS (opcional):
+        - Mostrar los datos anidados en una tabla en HTML o como JSON ordenado.
 
 ---

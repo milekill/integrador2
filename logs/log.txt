@@ -1,10 +1,235 @@
-Fecha: 2026-09-03 | Hora: 14:58:17 | Ruta: Inicio de Servidor
-Fecha: 2026-09-03 | Hora: 15:01:15 | Ruta: Inicio de Servidor
-Fecha: 2026-09-03 | Hora: 15:01:51 | Ruta: Inicio de Servidor
-Fecha: 2026-09-03 | Hora: 15:01:52 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
-Fecha: 2026-09-03 | Hora: 15:02:18 | Ruta: Inicio de Servidor
-Fecha: 2026-09-03 | Hora: 15:02:20 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
-Fecha: 2026-09-03 | Hora: 15:02:56 | Ruta: Inicio de Servidor
-Fecha: 2026-09-03 | Hora: 15:02:59 | Ruta: /usuarios[{"id":1,"nombre":"Juan Perez","email":"juan@mail.com"},{"id":2,"nombre":"Maria Lopez","email":"maria@mail.com"},{"id":3,"nombre":"Carlos Gomez","email":"carlos@mail.com"}]
-Fecha: 2026-09-03 | Hora: 15:03:10 | Ruta: /
-Fecha: 2026-09-03 | Hora: 15:04:29 | Ruta: /
+Fecha: 2026-09-03 | Hora: 19:58:59 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-03 | Hora: 19:59:02 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-03 | Hora: 19:59:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:01:04 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:01:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:01:25 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:02:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:02:28 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 20:04:02 | Ruta: /
+Fecha: 2026-09-04 | Hora: 20:04:06 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 20:06:02 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 20:06:05 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 20:06:47 | Ruta: /
+Fecha: 2026-09-04 | Hora: 20:08:18 | Ruta: /
+Fecha: 2026-09-04 | Hora: 20:09:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:10:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:10:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:11:22 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:12:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:12:43 | Ruta: /usuarios/id::idla sintaxis de entrada no es válida para tipo integer: «:id»
+Fecha: 2026-09-04 | Hora: 20:12:50 | Ruta: /usuarios/id:1
+Fecha: 2026-09-04 | Hora: 20:12:55 | Ruta: /usuarios/id:2
+Fecha: 2026-09-04 | Hora: 20:12:58 | Ruta: /usuarios/id:3
+Fecha: 2026-09-04 | Hora: 20:13:15 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:13:19 | Ruta: /usuarios/id:3SELECT id, nombre, email FROM usuarios WHERE id = $1
+Fecha: 2026-09-04 | Hora: 20:13:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:13:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:13:42 | Ruta: /usuarios/id:3 [object Object]
+Fecha: 2026-09-04 | Hora: 20:13:57 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:14:01 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:14:03 | Ruta: /usuarios/id:3 [object Object]
+Fecha: 2026-09-04 | Hora: 20:14:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:15:00 | Ruta: /usuarios/id:3 undefined
+Fecha: 2026-09-04 | Hora: 20:15:06 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:15:08 | Ruta: /usuarios/id:3 [object Object]
+Fecha: 2026-09-04 | Hora: 20:15:25 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:15:27 | Ruta: /usuarios/id:3 [object Object]
+Fecha: 2026-09-04 | Hora: 20:15:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:15:56 | Ruta: /usuarios/id:3 undefined
+Fecha: 2026-09-04 | Hora: 20:16:01 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:16:09 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:16:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:16:30 | Ruta: /usuarios/id:3 3
+Fecha: 2026-09-04 | Hora: 20:16:47 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:16:48 | Ruta: /usuarios/id:3 Carlos Gomez
+Fecha: 2026-09-04 | Hora: 20:17:08 | Ruta: /usuarios/id:1Cannot read properties of undefined (reading 'nombre')
+Fecha: 2026-09-04 | Hora: 20:20:32 | Ruta: /usuarios/id:1Cannot read properties of undefined (reading 'nombre')
+Fecha: 2026-09-04 | Hora: 20:20:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:20:57 | Ruta: /usuarios/id: 1Cannot read properties of undefined (reading 'nombre')
+Fecha: 2026-09-04 | Hora: 20:21:05 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:21:57 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:22:50 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:22:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:23:10 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:24:00 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:24:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:24:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:25:00 | Ruta: /usuarios/put.id: 3 llave duplicada viola restricción de unicidad «usuarios_email_key»
+Fecha: 2026-09-04 | Hora: 20:25:05 | Ruta: /usuarios/put.id: 3 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:25:12 | Ruta: /usuarios/get.id:3 Carlos Gomez
+Fecha: 2026-09-04 | Hora: 20:25:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:25:53 | Ruta: /usuarios/put.id: 3 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:29:14 | Ruta: /usuarios/put.id: 3 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:29:17 | Ruta: /usuarios/put.id: 3 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:29:22 | Ruta: /usuarios/put.id: 4 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:29:31 | Ruta: /usuarios/put.id: 3 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:29:33 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 20:30:18 | Ruta: /usuarios/put.id: 5 llave duplicada viola restricción de unicidad «usuarios_email_key»
+Fecha: 2026-09-04 | Hora: 20:30:23 | Ruta: /usuarios/put.id: 5 resultado is not defined
+Fecha: 2026-09-04 | Hora: 20:35:42 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:35:49 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:36:07 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:36:37 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:36:42 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 20:44:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:44:51 | Ruta: /usuarios/put.id: 5 daniel
+Fecha: 2026-09-04 | Hora: 20:44:58 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 20:45:06 | Ruta: /usuarios/delete.id: 5 undefined
+Fecha: 2026-09-04 | Hora: 20:47:00 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:47:53 | Ruta: /usuarios/10,0 resultados: 3
+Fecha: 2026-09-04 | Hora: 20:48:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:48:42 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:49:04 | Ruta: /usuarios/delete.id: 3 eliminado exitosamente
+Fecha: 2026-09-04 | Hora: 20:49:35 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:49:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:49:49 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:50:14 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:50:17 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:50:31 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:50:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:50:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:51:03 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:51:27 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:51:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:51:33 | Ruta: /usuarios/10,0 resultados: 2
+Fecha: 2026-09-04 | Hora: 20:52:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:56:10 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:56:22 | Ruta: /usuarios/10,0 resultados: 3
+Fecha: 2026-09-04 | Hora: 20:56:41 | Ruta: /usuarios/post.id:22 insertado exitosamente undefined
+Fecha: 2026-09-04 | Hora: 20:56:45 | Ruta: /usuarios/10,0 resultados: 4
+Fecha: 2026-09-04 | Hora: 20:57:26 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 20:57:38 | Ruta: /usuarios/post.id: 23 insertado exitosamente undefined
+Fecha: 2026-09-04 | Hora: 20:59:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:00:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:00:32 | Ruta: /usuarios/post.id: 24 insertado exitosamente Sam
+Fecha: 2026-09-04 | Hora: 21:00:47 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:01:00 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 21:01:17 | Ruta: /usuarios/put.id: 22 actualizado exitosamente
+Fecha: 2026-09-04 | Hora: 21:02:03 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 21:02:08 | Ruta: /usuarios/delete.id: 22 eliminado exitosamente
+Fecha: 2026-09-04 | Hora: 21:02:23 | Ruta: /
+Fecha: 2026-09-04 | Hora: 21:05:58 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:10:02 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:11:17 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:11:17 | Ruta: el valor nulo en la columna «password» de la relación «usuarios» viola la restricción “not-null”
+Fecha: 2026-09-04 | Hora: 21:11:17 | Ruta: el valor nulo en la columna «password» de la relación «usuarios» viola la restricción “not-null”
+Fecha: 2026-09-04 | Hora: 21:12:45 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:12:45 | Ruta: el valor nulo en la columna «password» de la relación «usuarios» viola la restricción “not-null”
+Fecha: 2026-09-04 | Hora: 21:12:45 | Ruta: el valor nulo en la columna «password» de la relación «usuarios» viola la restricción “not-null”
+Fecha: 2026-09-04 | Hora: 21:13:04 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:14:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:21:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:26:04 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:36:07 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:36:17 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:37:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:38:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:41:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:42:35 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:42:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:43:46 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:46:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:47:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:48:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:49:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:50:16 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:51:22 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:55:44 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:55:54 | Ruta: /usuarios/Cannot use a pool after calling end on the pool
+Fecha: 2026-09-04 | Hora: 21:55:59 | Ruta: /usuarios/Cannot use a pool after calling end on the pool
+Fecha: 2026-09-04 | Hora: 21:56:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:57:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 21:57:32 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:01:16 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:10:27 | Ruta: /usuarios/delete.id: 63 error: update o delete en «usuarios» viola la llave foránea «historial_usuario_id_fkey» en la tabla «historial»
+Fecha: 2026-09-04 | Hora: 22:10:43 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:10:48 | Ruta: /usuarios/delete.id: 63 error: update o delete en «usuarios» viola la llave foránea «historial_usuario_id_fkey» en la tabla «historial»
+Fecha: 2026-09-04 | Hora: 22:10:50 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:10:51 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:10:57 | Ruta: /usuarios/delete.id: 63 error: update o delete en «usuarios» viola la llave foránea «historial_usuario_id_fkey» en la tabla «historial»
+Fecha: 2026-09-04 | Hora: 22:15:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:16:06 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:16:09 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:16:12 | Ruta: /usuarios/delete.id: 63 eliminado exitosamente
+Fecha: 2026-09-04 | Hora: 22:16:19 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 22:17:01 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:17:25 | Ruta: /usuarios/Cannot use a pool after calling end on the pool
+Fecha: 2026-09-04 | Hora: 22:17:26 | Ruta: /usuarios/Cannot use a pool after calling end on the pool
+Fecha: 2026-09-04 | Hora: 22:17:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:17:33 | Ruta: /usuarios/10,0 resultados: 6
+Fecha: 2026-09-04 | Hora: 22:17:56 | Ruta: /usuarios/delete.id: 67 eliminado exitosamente
+Fecha: 2026-09-04 | Hora: 22:17:58 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 22:18:00 | Ruta: /usuarios/10,0 resultados: 5
+Fecha: 2026-09-04 | Hora: 22:30:02 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:30:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:41:06 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:42:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:45:45 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:48:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:48:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:49:39 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:50:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:55:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:56:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:57:48 | Ruta: /
+Fecha: 2026-09-04 | Hora: 22:59:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:59:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 22:59:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 22:59:55 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:00:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:00:38 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:00:44 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:00:45 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:01:12 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:01:12 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:05:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:05:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:05:36 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:05:37 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:07:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:07:41 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:08:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:08:20 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:08:31 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:08:31 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:10:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:10:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:11:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:11:19 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:11:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:11:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:12:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:12:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:12:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:12:41 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:13:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:13:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:13:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:13:56 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:14:00 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:14:01 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:14:15 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:14:15 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:14:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:14:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:15:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:15:20 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:16:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:16:28 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:16:50 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:16:50 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:16:57 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:16:57 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:17:02 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:17:35 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:17:36 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:17:37 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:20:05 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:20:05 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:21:09 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:21:10 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:21:17 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:21:17 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 23:21:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 23:21:24 | Ruta: Conexión establecida a PostgreSQL con éxito.

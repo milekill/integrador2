@@ -98,7 +98,6 @@ mediante API en la siguiente etapa.
 1. Conexión a una base de datos (Lección 1)
 
     * Objetivo específico: Configurar una conexión estable y segura entre el servidor Node y una base de datos relacional (MySQL o PostgreSQL).
-    ![Node Version instalada](./doc/img/01.png) <br>
 
     * Tareas:
         - Crear la base de datos y al menos 1 tabla principal (usuarios o equivalente).

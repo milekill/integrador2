@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Hola desde HTML</h1>
-        <p>Pagina inicial de Servidor con HTML en: <a href="http://localhost:3000">http://localhost:3000</a></p>
+<!--         <p>Pagina inicial de Servidor con HTML en: <a href="http://localhost:3000">http://localhost:3000</a></p>
         <p>Revisar el Status del Servidor con JSON en: <a href="http://localhost:3000/status">http://localhost:3000/status</a></p>
         <p>Revisar a traves de Routes: <a href="http://localhost:3000/rutas">http://localhost:3000/rutas</a></p>
-        <p>Datos de tu clases con tu nombre con Views EJS en: <a id="linkDatos" href="#">http://localhost:3000/datos/</a><input type="text" id="inputNombre" placeholder="Agrega tu nombre aqui"></p>
+        <p>Datos de tu clases con tu nombre con Views EJS en: <a id="linkDatos" href="#">http://localhost:3000/datos/</a><input type="text" id="inputNombre" placeholder="Agrega tu nombre aqui"></p> -->
         <p>Testear conexion con servidor PostgreSQL con pg en: <a href="http://localhost:3000/dbpg">http://localhost:3000/dbpg</a></p>
-        <p>Mostrar usuarios en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios">http://localhost:3000/usuarios</a></p>
+        <p>Mostrar todos los usuarios en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios">http://localhost:3000/usuarios</a></p>
         <p>Buscar usuario por nombre en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios?nombre=Juan">http://localhost:3000/usuarios?nombre=Juan</a></p>
-
+        <p>Mostrar usuarios por id, servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios/:id">http://localhost:3000/usuarios/:id</a></p>
+        <p>Ingresar usuarios metodo post eb servidor PostgreSQL con pg en {"nombre": "","email": "","password": ""} : <a href="http://localhost:3000/usuarios">http://localhost:3000/usuarios</a></p>
+        <p>Actualizar email usuarios metodo put eb servidor PostgreSQL con pg en {"email": ""} : <a href="http://localhost:3000/usuarios/:id">http://localhost:3000/usuarios/:id</a></p>
+        <p>Eliminar usuarios metodo delete en servidor PostgreSQL con pg en: <a href="http://localhost:3000/usuarios/:id">http://localhost:3000/usuarios/:id</a></p>
         
 <script>
     const input = document.getElementById('inputNombre');
