@@ -233,3 +233,413 @@ Fecha: 2026-09-04 | Hora: 23:21:17 | Ruta: Inicio de Servidor
 Fecha: 2026-09-04 | Hora: 23:21:17 | Ruta: Conexión establecida a PostgreSQL con éxito.
 Fecha: 2026-09-04 | Hora: 23:21:24 | Ruta: Inicio de Servidor
 Fecha: 2026-09-04 | Hora: 23:21:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:22:33 | Ruta: Error en la conexión a PostgreSQL: SequelizeConnectionRefusedError
+Fecha: 2026-09-04 | Hora: 09:23:19 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:25:12 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:26:02 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:27:41 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:28:27 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:28:44 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:28:44 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:29:12 | Ruta: /
+Fecha: 2026-09-04 | Hora: 09:29:14 | Ruta: /usuarios/10,0 resultados: 1
+Fecha: 2026-09-04 | Hora: 09:29:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:29:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:29:23 | Ruta: /usuarios/10,0 resultados: 1
+Fecha: 2026-09-04 | Hora: 09:41:03 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:41:03 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:42:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:42:56 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:43:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:43:13 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:43:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:43:55 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:46:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:46:32 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:46:48 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:46:48 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:47:07 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:47:08 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:47:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:47:32 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:48:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:48:38 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:48:59 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:48:59 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:49:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:49:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:49:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:49:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:49:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:49:30 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:49:42 | Ruta: /usuarios/10,0 resultados: 1
+Fecha: 2026-09-04 | Hora: 09:50:35 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:50:35 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:51:26 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:51:26 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:52:15 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 09:52:15 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 09:52:18 | Ruta: /usuarios/10,0 resultados: 2
+Fecha: 2026-09-04 | Hora: 10:04:27 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:04:27 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:05:14 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:05:14 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:05:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:05:55 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:06:49 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:06:50 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:07:09 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:07:09 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:07:20 | Ruta: /usuarios/10,0 resultados: 2
+Fecha: 2026-09-04 | Hora: 10:07:57 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:07:57 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:08:49 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:08:49 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:08:59 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:09:01 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:09:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:09:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:09:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:09:55 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:10:32 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:10:32 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:10:59 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:11:00 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:11:22 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:11:22 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:15:32 | Ruta: /
+Fecha: 2026-09-04 | Hora: 10:16:09 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:16:09 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:16:26 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:16:26 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:16:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:16:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:17:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:17:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:18:08 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:18:08 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:18:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:18:19 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:18:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:18:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:20:11 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:20:11 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:20:58 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:20:58 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:21:02 | Ruta: /users/demo: [object SequelizeInstance:usuarios]
+Fecha: 2026-09-04 | Hora: 10:21:29 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:21:29 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:21:31 | Ruta: /users/demo: undefined
+Fecha: 2026-09-04 | Hora: 10:21:42 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:21:42 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:21:44 | Ruta: /users/demo: jorge
+Fecha: 2026-09-04 | Hora: 10:25:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:25:56 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:26:20 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:26:20 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:26:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:26:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:27:05 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:27:05 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:27:10 | Ruta: /users/demo: [object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios]
+Fecha: 2026-09-04 | Hora: 10:27:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:27:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:27:23 | Ruta: /users/demo: undefined
+Fecha: 2026-09-04 | Hora: 10:27:37 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:27:37 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:27:39 | Ruta: /users/2
+Fecha: 2026-09-04 | Hora: 10:27:54 | Ruta: /users/demo: jorge
+Fecha: 2026-09-04 | Hora: 10:29:25 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:29:25 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:29:56 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:29:56 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:29:59 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:29:59 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:30:15 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 10:30:18 | Ruta: /users/2
+Fecha: 2026-09-04 | Hora: 10:31:06 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:31:06 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:32:54 | Ruta: /
+Fecha: 2026-09-04 | Hora: 10:33:04 | Ruta: /users/2
+Fecha: 2026-09-04 | Hora: 10:33:19 | Ruta: /usuarios/get.id: :id error: la sintaxis de entrada no es válida para tipo integer: «:id»
+Fecha: 2026-09-04 | Hora: 10:33:21 | Ruta: /usuarios/get.id: 1 usuario encontrado Daniel
+Fecha: 2026-09-04 | Hora: 10:33:25 | Ruta: /usuarios/%Juan%,10,0 resultados: 0
+Fecha: 2026-09-04 | Hora: 10:33:31 | Ruta: /usuarios/%Juan%,10,0 resultados: 0
+Fecha: 2026-09-04 | Hora: 10:33:35 | Ruta: /usuarios/10,0 resultados: 2
+Fecha: 2026-09-04 | Hora: 10:33:38 | Ruta: /users/2
+Fecha: 2026-09-04 | Hora: 10:33:41 | Ruta: /usuarios/10,0 resultados: 2
+Fecha: 2026-09-04 | Hora: 10:33:44 | Ruta: /dbpg/Fri Sep 04 2026 10:33:44 GMT-0400 (hora estándar de Chile)
+Fecha: 2026-09-04 | Hora: 10:34:37 | Ruta: /
+Fecha: 2026-09-04 | Hora: 10:36:47 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:36:47 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:37:34 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:37:34 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:38:27 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:38:27 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:38:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:38:33 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:46:59 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:46:59 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:48:11 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:48:12 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:48:18 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 10:52:50 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:52:50 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:53:10 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 10:53:50 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 10:55:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:55:34 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:56:00 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:56:00 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:56:22 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:56:22 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:57:36 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:57:36 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 10:58:31 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 10:58:31 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:00:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:00:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:00:26 | Ruta: /demo: 
+Fecha: 2026-09-04 | Hora: 11:00:42 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:01:07 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:01:08 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:01:09 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:02:23 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:02:23 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:02:26 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:03:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:03:18 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:04:04 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:04:04 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:04:06 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:04:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:04:18 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:04:20 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:04:29 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:04:29 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:04:32 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:05:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:05:42 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:05:44 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:06:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:06:31 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:06:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:06:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:06:51 | Ruta: /demo: 
+Fecha: 2026-09-04 | Hora: 11:07:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:07:14 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:07:24 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:07:24 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:07:37 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:07:37 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:07:41 | Ruta: /demo: 
+Fecha: 2026-09-04 | Hora: 11:07:58 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:07:58 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:07:59 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:08:38 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:08:42 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:08:45 | Ruta: /user/pedidos: 2
+Fecha: 2026-09-04 | Hora: 11:10:43 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:10:43 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:10:47 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:26:45 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:27:11 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:27:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:27:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:27:43 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:28:01 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:30:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:30:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:30:49 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:30:49 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:30:54 | Ruta: /demo: jorge
+Fecha: 2026-09-04 | Hora: 11:31:29 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:31:29 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:31:30 | Ruta: /demo: Daniel
+Fecha: 2026-09-04 | Hora: 11:33:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:33:41 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:34:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:34:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:34:54 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:39:06 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:39:06 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:39:12 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:39:12 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:39:14 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:39:43 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:39:43 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:39:44 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:40:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:40:19 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:40:21 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:40:29 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:40:29 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:40:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:40:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:40:40 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:41:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:41:13 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:41:15 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:41:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:41:33 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:41:36 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:42:45 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:42:45 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:43:16 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:43:16 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:43:18 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:43:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:43:30 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:43:31 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:43:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:43:38 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:43:39 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:44:00 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:44:00 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:44:03 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:44:25 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:44:25 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:44:26 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:45:03 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:45:03 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:45:04 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:45:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:45:18 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:45:19 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:45:39 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:45:39 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:45:40 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:46:10 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:46:10 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:46:12 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:46:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:46:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:46:23 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:46:23 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:46:24 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:46:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:46:30 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:46:39 | Ruta: /
+Fecha: 2026-09-04 | Hora: 11:46:52 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:48:18 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:48:18 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:48:19 | Ruta: /user/pedidos: 1
+Fecha: 2026-09-04 | Hora: 11:48:25 | Ruta: /users/2
+Fecha: 2026-09-04 | Hora: 11:48:37 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:48:55 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:48:55 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:48:57 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:49:10 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:49:10 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:49:11 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:49:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:49:54 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:49:58 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:49:58 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:49:59 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:51:10 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:51:10 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:51:11 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:53:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:53:13 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:53:34 | Ruta: /user/pedidos: 1undefined
+Fecha: 2026-09-04 | Hora: 11:53:54 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:53:54 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:53:56 | Ruta: /user/pedidos: 13
+Fecha: 2026-09-04 | Hora: 11:54:08 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:54:09 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:54:10 | Ruta: /user/pedidos: 1 3
+Fecha: 2026-09-04 | Hora: 11:54:33 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:54:33 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:54:34 | Ruta: /user/pedidos: id:1 pedidos:3
+Fecha: 2026-09-04 | Hora: 11:54:40 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:54:40 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:54:43 | Ruta: /user/pedidos: id: 1 pedidos: 3
+Fecha: 2026-09-04 | Hora: 11:54:54 | Ruta: /demo: undefined
+Fecha: 2026-09-04 | Hora: 11:55:03 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:55:03 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:55:05 | Ruta: /demo: [object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios]
+Fecha: 2026-09-04 | Hora: 11:55:13 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:55:13 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:55:15 | Ruta: /demo: 4
+Fecha: 2026-09-04 | Hora: 11:55:34 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:55:34 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:55:35 | Ruta: /demo: 4[object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios],[object SequelizeInstance:usuarios]
+Fecha: 2026-09-04 | Hora: 11:55:46 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:55:46 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:56:15 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:56:15 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:56:17 | Ruta: /demo: 4
+Fecha: 2026-09-04 | Hora: 11:56:28 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:56:28 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:56:44 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 11:57:01 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:57:01 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:58:42 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:58:42 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:58:44 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 11:59:29 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:59:29 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:59:31 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 11:59:46 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 11:59:46 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 11:59:48 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 11:59:50 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:00:45 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:00:45 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:00:47 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:01:03 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:01:03 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:01:13 | Ruta: /users/4
+Fecha: 2026-09-04 | Hora: 12:01:23 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:01:23 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:01:25 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:01:25 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:01:44 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:01:44 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:02:02 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:02:02 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:02:03 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:03:21 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:03:21 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:03:22 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:03:35 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:03:36 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:05:36 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:05:36 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:05:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:05:41 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:05:51 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:05:51 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:05:52 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:06:16 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:06:17 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:06:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:06:30 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:06:36 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:06:36 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:06:37 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:06:41 | Ruta: /user/pedidos: id: 1 pedidos: 3
+Fecha: 2026-09-04 | Hora: 12:07:08 | Ruta: /user/pedidos: id: 1 pedidos: 3
+Fecha: 2026-09-04 | Hora: 12:07:11 | Ruta: /user/pedidos: id: 2 pedidos: 1
+Fecha: 2026-09-04 | Hora: 12:07:15 | Ruta: /user/pedidos: id: 3 pedidos: 1
+Fecha: 2026-09-04 | Hora: 12:07:18 | Ruta: /user/pedidos: id: 4 pedidos: 1
+Fecha: 2026-09-04 | Hora: 12:08:38 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:08:38 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:08:44 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:08:44 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:09:08 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:09:08 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:09:34 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:09:41 | Ruta: /user/pedidos: id: 1 pedidos: 3
+Fecha: 2026-09-04 | Hora: 12:12:30 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:12:31 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:12:34 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:13:43 | Ruta: /
+Fecha: 2026-09-04 | Hora: 12:23:16 | Ruta: /users/4
+Fecha: 2026-09-04 | Hora: 12:23:21 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:23:39 | Ruta: /demo: usuarios:4
+Fecha: 2026-09-04 | Hora: 12:25:19 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:25:19 | Ruta: Conexión establecida a PostgreSQL con éxito.
+Fecha: 2026-09-04 | Hora: 12:25:41 | Ruta: Inicio de Servidor
+Fecha: 2026-09-04 | Hora: 12:25:41 | Ruta: Conexión establecida a PostgreSQL con éxito.

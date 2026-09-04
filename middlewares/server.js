@@ -263,15 +263,41 @@ async function ejecutarPruebas() {
 
 //ejecutarPruebas();
 
+//Mostra usuarios con Sequelize
 app.get('/users', async (req, res) => {
   try {
-    const connect = await sequelize.conectarDB();
-    const users = await usuarios.findAll();
-    res.json(users);
+    const usuario = await sequelize.obtenerUsuarios();
+    gestor.registrarVisita('/users/'  + usuario.length);
+    res.json(usuario);
   } catch (error) {
     console.error(error.message); 
     res.status(500).json({ error: 'Error al obtener los usuarios' });
   }
+});
+
+//Demo crear, buscar y mostrar usuario con Sequelize
+app.get('/demo', async (req, res) => {
+  try {
+    const usuarios = await sequelize.runDemo("jorge", "jor@email.com", "pass2345");
+    gestor.registrarVisita('/demo: usuarios:'  + usuarios.length);
+    res.json(usuarios);
+  } catch (error) {
+    console.error(error.message); 
+    res.status(500).json({ error: 'Error al obtener los usuarios' });
+  }
+});
+
+//Pedidos de usuario
+app.get('/users/:id/pedidos', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const pedido = await sequelize.obtenerPedido(id);
+        gestor.registrarVisita('/user/pedidos: ' + 'id: ' + id + ' pedidos: ' + pedido.pedidos.length);
+        res.json(pedido);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ mensaje: 'Error al obtener los datos' });
+    }
 });
 
 //listen
@@ -284,4 +310,6 @@ app.listen(process.env.PORT, () => {
     console.log(`Base de datos con dbpg PostgreSQL: http://localhost:${process.env.PORT}/dbpg`);
     console.log(`Mostrar Usuarios con dbpg PostgreSQL: http://localhost:${process.env.PORT}/usuarios`);
     console.log(`Buscar Usuarios por nombre con dbpg PostgreSQL: http://localhost:${process.env.PORT}/Usuarios?nombre=Juan`);
+    console.log(`Inicia demo con Sequelize en servidor PostgreSQL en: http://localhost:${process.env.PORT}/demo`);
+    console.log(`Mostrar usuarios con Sequelize en servidor PostgreSQL en: http://localhost:${process.env.PORT}/users`);
 });

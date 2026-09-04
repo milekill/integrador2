@@ -173,13 +173,14 @@ Versión:1.0.2.1
     <br>![user](./doc/img/28.png)<br>
 
     - Crear una ruta que devuelva los usuarios usando métodos del ORM.
-    
+    <br>![ruta usuarios](./doc/img/29.png)<br>
+    <br>![ruta usuarios](./doc/img/30.png)<br>
 
     - Comparación de resultados entre SQL manual y ORM.
-        CaracterísticaCliente SQL Tradicional (ej. pg, mysql2)ORM (Sequelize)
-        Código de consultaSELECT id, name, email, "createdAt" FROM "Users";User.findAll();
-        Formateo de datosDevuelve filas de texto plano que debes mapear manualmente si requieres lógica de negocio.Devuelve instancias de clase con métodos útiles (ej. user.save()).
-        Seguridad (Inyección SQL)Requiere sanitizar manualmente usando consultas parametrizadas ($1, $2).Sanitiza y protege contra inyección SQL de forma nativa y automática.
+        Característica Cliente SQL Tradicional (ej. pg, mysql2)ORM (Sequelize)
+        Código de consulta SELECT id, name, email, "createdAt" FROM "Users";User.findAll();
+        Formateo de datos Devuelve filas de texto plano que debes mapear manualmente si requieres lógica de negocio. Devuelve instancias de clase con métodos útiles (ej. user.save()).
+        Seguridad (Inyección SQL) Requiere sanitizar manualmente usando consultas parametrizadas ($1, $2). Sanitiza y protege contra inyección SQL de forma nativa y automática.
         Mutación de datos (Crear)INSERT INTO "Users" (name, email) VALUES ($1, $2) RETURNING *;User.create({ name, email });
 
 
@@ -193,15 +194,20 @@ Versión:1.0.2.1
 
 6. Manejo de relaciones en un ORM (Lección 6)
 
-    * Objetivo específico: Crear relaciones entre modelos y consultarlas desde rutas.
+    - Crear al menos 1 relación (por ejemplo, Usuario tiene muchos Pedidos).
+    <br>![ruta usuarios](./doc/img/31.png)<br>
 
-    * Tareas:
-        - Crear al menos 1 relación (por ejemplo, Usuario tiene muchos Pedidos).
-        - Crear una ruta que devuelva el usuario y sus pedidos en una sola consulta.
-    * Requerimientos mínimos:
-        - Uso de include o equivalente para traer relaciones.
-        - Al menos 2 modelos relacionados.
-    * Tarea PLUS (opcional):
-        - Mostrar los datos anidados en una tabla en HTML o como JSON ordenado.
+    - Crear una ruta que devuelva el usuario y sus pedidos en una sola consulta.
+        `http://localhost:3000/users/:id/pedidos`
+        <br>![ruta usuarios](./doc/img/32.png)<br>
+
+    - Uso de include o equivalente para traer relaciones.
+    <br>![ruta usuarios](./doc/img/33.png)<br>
+
+    - Al menos 2 modelos relacionados.
+
+    - Mostrar los datos anidados en una tabla en HTML o como JSON ordenado.+
+    `http://localhost:3000/demo`
+    <br>![ruta usuarios](./doc/img/35.png)<br>
 
 ---
